@@ -11,7 +11,6 @@ export default function HomePage(){
     const roshan = useRef(null);
 
     const[loading,setLoading] = useState(true);
-
     // UseState();
     // useEffect();
     // useRef();
@@ -38,6 +37,8 @@ export default function HomePage(){
             {loading?'Please wait....':'Loaded'}
 
             <p>Lorem Ipsum testing</p>
+
+            <img src={'/images/home/download.png'} />
 
             <h1 ref={pranva}>Pranav</h1>
             <h1 ref={roshan}>Roshan</h1>
