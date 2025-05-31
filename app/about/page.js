@@ -1,8 +1,8 @@
 
 
-export default function MyAboutPage(){
+export default function MyAboutPage() {
 
-    return(
+    return (
         <>
             <h1>Hello World</h1>
         </>
