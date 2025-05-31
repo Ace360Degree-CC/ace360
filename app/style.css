@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --theme-primary: #f2a300;
+  --theme-text: #212529;
+  --theme-heading: #363636;
 }
 
 .font-caveat {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
-
 
 @theme inline {
   --color-background: var(--background);
@@ -24,8 +26,6 @@
     --foreground: #ededed;
   }
 }
-
-
 
 body {
   background: var(--background);
