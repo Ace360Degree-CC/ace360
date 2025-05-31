@@ -22,7 +22,7 @@ export default function useGsapAnimations() {
           scrollTrigger: {
             trigger: el,
             start: "top 90%",
-            toggleActions: "play none none reverse roshan",
+            toggleActions: "play none none reversenpm ",
           },
         }
       );
