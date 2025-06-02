@@ -5,7 +5,7 @@ const services = [
     title: "PERFORMANCE MARKETING",
     description:
       "Optimize ads seamlessly across channels to generate high-quality leads, drive conversions, and maximize your ROI.",
-    link: "#",
+    link: "services/digitalmarketing/performance-marketing",
     linkText: "Know More: PERFORMANCE MARKETING",
     image: "/images/services/digital-marketing/performace-maketing.png",
   },

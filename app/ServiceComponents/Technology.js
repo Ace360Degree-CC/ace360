@@ -2,52 +2,76 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "PERFORMANCE MARKETING",
+    title: "Website Design & Development",
     description:
-      "Optimize ads seamlessly across channels to generate high-quality leads, drive conversions, and maximize your ROI.",
+      "Build modern, responsive, and high-performing websites that enhance user experience and business growth.",
     link: "#",
-    linkText: "Know More: PERFORMANCE MARKETING",
-    image: "/images/services/digital-marketing/performace-maketing.png",
+    linkText: "Know More: WDD",
+    image: "/images/services/technology/web-development.png",
   },
   {
-    title: "SEARCH ENGINE OPTIMIZATION & MARKETING",
+    title: "Mobile App Development",
     description:
       "Boost your rankings on search engines organically, with content and technical optimization.",
     link: "#",
-    linkText: "Know More: SEO",
-    image: "/images/services/digital-marketing/seo.png",
+    linkText: "Know More: Mobile App Development",
+    image: "/images/services/technology/mobile-app-development.png",
   },
   {
-    title: "SOCIAL MEDIA MARKETING",
+    title: "Custom Software Development",
     description:
       "Leverage social media to increase followers, boost engagement, and build a strong brand presence.",
     link: "#",
-    linkText: "Know More: SMM",
-    image: "/images/services/digital-marketing/smm.png",
+    linkText: "Know More: CSD",
+    image: "/images/services/technology/custom-software-development.png",
   },
   {
-    title: "INFLUENCER MARKETING",
+    title: "Ecommerce Website Development",
     description:
       "Partner with the right influencers to authentically promote your products and services.",
     link: "#",
-    linkText: "Know More: Influencer Marketing",
-    image: "/images/services/digital-marketing/infulencer-marketing.png",
+    linkText: "Know More: EWD",
+    image: "/images/services/technology/e-commerce-website-development.png",
   },
   {
-    title: "ONLINE REPUTATION MANAGEMENT",
+    title: "Portal Development / Marketplace",
     description:
       "Safeguard your company’s image, remove harmful content, and boost positive reviews and mentions.",
     link: "#",
-    linkText: "Know More: ORM",
-    image: "/images/services/digital-marketing/online-reputation.png",
+    linkText: "Know More: Portal Development / Marketplace",
+    image: "/images/services/technology/portal-development.png",
   },
   {
-    title: "CONTENT WRITING",
+    title: "WordPress Website",
     description:
       "Create compelling content for websites, blogs, articles, campaigns, and more.",
     link: "#",
-    linkText: "Know More: Content Writing",
-    image: "/images/services/digital-marketing/content-writing.png",
+    linkText: "Know More: WordPress Website",
+    image: "/images/services/technology/wordpress.png",
+  },
+  {
+    title: "Shopify Website Development",
+    description:
+      "Build high-converting Shopify stores with optimized design and seamless user experiences.",
+    link: "#",
+    linkText: "Know More: SWD",
+    image: "/images/services/technology/shopify.png",
+  },
+  {
+    title: "OpenCart Website Development",
+    description:
+      "Develop feature-rich, customizable eCommerce websites with OpenCart for scalable online businesses.",
+    link: "#",
+    linkText: "Know More: OWD",
+    image: "/images/services/technology/open-carft.png",
+  },
+  {
+    title: "Squarespace Website Development",
+    description:
+      "Design stunning, user-friendly Squarespace websites that captivate and convert visitors.",
+    link: "#",
+    linkText: "Know More: SWD",
+    image: "/images/services/technology/square-space.png",
   },
 ];
 
@@ -56,14 +80,18 @@ export default function Technology() {
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl font-bold text-[var(--theme-primary)] mb-2">
-          Digital Marketing
+          Technology
         </h2>
         <p className="text-lg text-[var(--theme-text)]  font-medium mb-10">
-          Accelerate Your Brand’s Online Growth
+          Transform Your Digital Presence with Cutting-Edge Solutions
         </p>
         <p className="text-gray-600 mb-10">
-          Our digital marketing solutions are both performance-driven and
-          designed to improve your digital presence and drive conversions.
+          At Ace360degree, we leverage technology to create high-performing,
+          scalable, and user-friendly digital experiences. From custom websites
+          and mobile apps to eCommerce solutions and business portals, we build
+          innovative platforms designed for growth and efficiency. Our expertise
+          in leading web development platforms ensures a seamless, future-ready
+          digital presence.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {services.map((service, index) => (
