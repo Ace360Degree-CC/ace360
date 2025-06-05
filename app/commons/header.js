@@ -55,7 +55,7 @@ export default function Header() {
             {/* your links (unchanged) */}
             <li>
               <Link
-                href="/"
+                href="http://localhost:3000/company"
                 className="block py-2 px-3 hover:text-[#666666] md:p-0"
               >
                 Company
@@ -71,7 +71,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/services"
+                href="/product"
                 className="block py-2 px-3 hover:text-[#666666] md:p-0"
               >
                 Products
