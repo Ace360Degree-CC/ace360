@@ -10,5 +10,5 @@ export default function BrandHead() {
         </h2>
       </div>
     </section>
-  )
+  );
 }
