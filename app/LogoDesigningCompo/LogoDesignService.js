@@ -39,7 +39,13 @@ export default function LogoDesignService() {
   return (
     <div className="w-full bg-white">
       <section className="py-16 px-4 max-w-7xl mx-auto text-center">
-        <h4 className="text-sm text-gray-500 uppercase tracking-wide font-poppins">Logo Designing</h4>
+        <h4
+  className="relative text-sm font-semibold inline-block after:content-[''] after:block after:h-[1px] after:bg-[#F2A300] after:absolute after:bottom-[-0px] after:left-0 after:w-[100%]"
+  style={{ color: 'var(--theme-grey)' }}
+>
+  Logo Designing
+</h4>
+
         <h2 className="text-3xl font-bold text-gray-900 mb-10 font-poppins">Our Logo Design Services</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
