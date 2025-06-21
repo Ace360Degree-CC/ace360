@@ -2,18 +2,18 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Marketing Collaterals",
+    title: "MARKETING COLLATERALS",
     description:
       "Design professional brochures, business cards, flyers, and other brand materials to engage your audience.",
-    link: "#",
-    linkText: "Know More: PERFORMANCE MARKETING",
+    link: "services/branding/marketing-collaterals",
+    linkText: "Know More: Marketing Collaterals",
     image: "/images/services/branding/marketing-collateral.png",
   },
   {
-    title: "Brand Strategy",
+    title: "BRAND STRATEGY",
     description:
       "Define your brand’s mission, values, and messaging with strategic planning to build a strong foundation.",
-    link: "#",
+    link: "services/branding/brand-strategy",
     linkText: "Know More: Brand Strategy",
     image: "/images/services/branding/brand-strategy.png",
   },
@@ -21,7 +21,7 @@ const services = [
     title: "BRAND NAMING",
     description:
       "Develop a distinctive, memorable brand name that stands out in the market and aligns with your vision.",
-    link: "#",
+    link: "services/branding/brand-naming",
     linkText: "Know More: BRAND NAMING",
     image: "/images/services/branding/brand-naming.png",
   },
@@ -29,31 +29,31 @@ const services = [
     title: "LOGO DESIGNING",
     description:
       "Create a visually stunning and meaningful logo that represents your business and enhances brand recognition.",
-    link: "#",
+    link: "services/branding/logo-designing",
     linkText: "Know More: LOGO DESIGNING",
     image: "/images/services/branding/logo-designing.png",
   },
   {
-    title: "Video Editing",
+    title: "VIDEO EDITING",
     description:
       "Elevate your brand with polished, high-quality video content that captures attention and boosts engagement.",
-    link: "#",
+    link: "services/branding/video-editing",
     linkText: "Know More: Video Editing",
     image: "/images/services/branding/video-editing.png",
   },
   {
-    title: "Motion Graphics",
+    title: "Motion Graphics MOTION GRAPHICS",
     description:
       "Use dynamic animations and visual storytelling to make your brand stand out and captivate your audience.",
-    link: "#",
+    link: "services/branding/motion-graphics",
     linkText: "Know More: Motion Graphics",
     image: "/images/services/branding/motion-graphic.png",
   },
   {
-    title: "Package Designing",
+    title: "Package Designing PACKAGE DESIGNING",
     description:
       "Enhance product appeal with eye-catching, custom packaging that strengthens brand identity and attracts customers.",
-    link: "#",
+    link: "services/branding/package-designing",
     linkText: "Know More: Package Designin",
     image: "/images/services/branding/package-design.png",
   },
@@ -61,15 +61,15 @@ const services = [
     title: "GRAPHICS DESIGNING",
     description:
       "Communicate your brand’s story effectively with compelling and creative visuals tailored to your business.",
-    link: "#",
+    link: "services/branding/graphics-designing",
     linkText: "Know More: GRAPHICS DESIGNING",
     image: "/images/services/branding/graphic-design.png",
   },
   {
-    title: "3D Modelling & Animation",
+    title: "3D MODELLING & ANIMATION",
     description:
       "Bring concepts to life with immersive 3D visuals, adding depth and innovation to your brand storytelling.",
-    link: "#",
+    link: "services/branding/3d-modelling-and-animation",
     linkText: "Know More: 3D Modelling & Animation",
     image: "/images/services/branding/3d-modal-animation.png",
   },

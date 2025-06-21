@@ -2,74 +2,74 @@ import Image from "next/image";
 
 const services = [
   {
-    title: "Website Design & Development",
+    title: "WEBSITE DESIGN & DEVELOPMENT",
     description:
       "Build modern, responsive, and high-performing websites that enhance user experience and business growth.",
-    link: "#",
+    link: "services/technology/website-development",
     linkText: "Know More: WDD",
     image: "/images/services/technology/web-development.png",
   },
   {
-    title: "Mobile App Development",
+    title: "MOBILE APP DEVELOPMENT",
     description:
       "Boost your rankings on search engines organically, with content and technical optimization.",
-    link: "#",
+    link: "/services/technology/mobile-app-development",
     linkText: "Know More: Mobile App Development",
     image: "/images/services/technology/mobile-app-development.png",
   },
   {
-    title: "Custom Software Development",
+    title: "CUSTOM SOFTWARE DEVELOPMENT",
     description:
       "Leverage social media to increase followers, boost engagement, and build a strong brand presence.",
-    link: "#",
+    link: "/services/technology/custom-software-development",
     linkText: "Know More: CSD",
     image: "/images/services/technology/custom-software-development.png",
   },
   {
-    title: "Ecommerce Website Development",
+    title: "ECOMMERCE WEBSITE DEVELOPMENT",
     description:
       "Partner with the right influencers to authentically promote your products and services.",
-    link: "#",
+    link: "/services/technology/e-commerce-web-development",
     linkText: "Know More: EWD",
     image: "/images/services/technology/e-commerce-website-development.png",
   },
   {
-    title: "Portal Development / Marketplace",
+    title: "PORTAL DEVELOPMENT / MARKETPLACE",
     description:
       "Safeguard your company’s image, remove harmful content, and boost positive reviews and mentions.",
-    link: "#",
+    link: "services/technology/portal-development",
     linkText: "Know More: Portal Development / Marketplace",
     image: "/images/services/technology/portal-development.png",
   },
   {
-    title: "WordPress Website",
+    title: "WORDPRESS WEBSITE",
     description:
       "Create compelling content for websites, blogs, articles, campaigns, and more.",
-    link: "#",
+    link: "services/technology/wordpress",
     linkText: "Know More: WordPress Website",
     image: "/images/services/technology/wordpress.png",
   },
   {
-    title: "Shopify Website Development",
+    title: "SHOPIFY WEBSITE DEVELOPMENT",
     description:
       "Build high-converting Shopify stores with optimized design and seamless user experiences.",
-    link: "#",
+    link: "services/technology/shopify",
     linkText: "Know More: SWD",
     image: "/images/services/technology/shopify.png",
   },
   {
-    title: "OpenCart Website Development",
+    title: "OPENCART WEBSITE DEVELOPMENT",
     description:
       "Develop feature-rich, customizable eCommerce websites with OpenCart for scalable online businesses.",
-    link: "#",
+    link: "services/technology/opencart",
     linkText: "Know More: OWD",
     image: "/images/services/technology/open-carft.png",
   },
   {
-    title: "Squarespace Website Development",
+    title: "SQUARESPACE WEBSITE DEVELOPMENT",
     description:
       "Design stunning, user-friendly Squarespace websites that captivate and convert visitors.",
-    link: "#",
+    link: "services/technology/squarespace",
     linkText: "Know More: SWD",
     image: "/images/services/technology/square-space.png",
   },

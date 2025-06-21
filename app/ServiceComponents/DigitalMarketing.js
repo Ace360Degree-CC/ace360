@@ -13,7 +13,7 @@ const services = [
     title: "SEARCH ENGINE OPTIMIZATION & MARKETING",
     description:
       "Boost your rankings on search engines organically, with content and technical optimization.",
-    link: "#",
+    link: "services/digitalmarketing/search-engine-optimization",
     linkText: "Know More: SEO",
     image: "/images/services/digital-marketing/seo.png",
   },
@@ -21,7 +21,7 @@ const services = [
     title: "SOCIAL MEDIA MARKETING",
     description:
       "Leverage social media to increase followers, boost engagement, and build a strong brand presence.",
-    link: "#",
+    link: "services/digitalmarketing/social-media-marketing",
     linkText: "Know More: SMM",
     image: "/images/services/digital-marketing/smm.png",
   },
@@ -29,7 +29,7 @@ const services = [
     title: "INFLUENCER MARKETING",
     description:
       "Partner with the right influencers to authentically promote your products and services.",
-    link: "#",
+    link: "services/digitalmarketing/Influencer-marketing",
     linkText: "Know More: Influencer Marketing",
     image: "/images/services/digital-marketing/infulencer-marketing.png",
   },
@@ -37,7 +37,7 @@ const services = [
     title: "ONLINE REPUTATION MANAGEMENT",
     description:
       "Safeguard your company’s image, remove harmful content, and boost positive reviews and mentions.",
-    link: "#",
+    link: "services/digitalmarketing/online-reputation-management",
     linkText: "Know More: ORM",
     image: "/images/services/digital-marketing/online-reputation.png",
   },
@@ -45,7 +45,7 @@ const services = [
     title: "CONTENT WRITING",
     description:
       "Create compelling content for websites, blogs, articles, campaigns, and more.",
-    link: "#",
+    link: "services/digitalmarketing/content-writing",
     linkText: "Know More: Content Writing",
     image: "/images/services/digital-marketing/content-writing.png",
   },
