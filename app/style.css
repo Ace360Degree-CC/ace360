@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import "tailwindcss";
 
 /* ======================= */
@@ -12,17 +12,18 @@
   --theme-text: #212529;
   --theme-heading: #363636;
   --theme-grey: #464646;
+  --theme-skin: #fbe4b5;
 }
 
 /* ======================= */
 /*        FONTS            */
 /* ======================= */
 .font-caveat {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
 .font-abril {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
 /* ======================= */
@@ -55,7 +56,7 @@ body {
 }
 
 .glowing-text {
-  text-shadow: 0 0 1px #FFA500, 0 0 1px #FFA500, 0 0 10px #FFA500;
+  text-shadow: 0 0 1px #ffa500, 0 0 1px #ffa500, 0 0 10px #ffa500;
 }
 
 /* ======================= */
@@ -64,7 +65,7 @@ body {
 
 /* Let’s Connect Button (Gradient Orange) */
 .btn-connect {
-  background: linear-gradient(to bottom, #FFC959, #F2A300);
+  background: linear-gradient(to bottom, #ffc959, #f2a300);
   color: #000;
   font-weight: 300;
   padding: 0.5rem 1.25rem;
@@ -96,7 +97,7 @@ body {
 }
 
 .btn-see-work-2 .text {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   color: #000;
   padding: 0.5rem 1.25rem;
   position: relative;

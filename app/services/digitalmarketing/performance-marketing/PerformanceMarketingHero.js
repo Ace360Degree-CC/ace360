@@ -12,23 +12,20 @@ export default function PerformanceMarketingHero() {
         {/* Left Text Content */}
         <div className="md:w-1/2">
           <h4
-            className="text-sm font-semibold"
+            className="relative text-sm font-semibold inline-block after:content-[''] after:block after:h-[1px] after:bg-[#F2A300] after:absolute after:bottom-[-0px] after:left-0 after:w-[140%]"
             style={{ color: "var(--theme-grey)" }}
           >
             Performance Marketing
           </h4>
 
           <h2
-            className="text-3xl md:text-4xl font-bold mt-2"
+            className="text-lg md:text-2xl mt-2"
             style={{ color: "var(--theme-heading)" }}
           >
             Maximize Your ROI with Data-Driven Performance Marketing
           </h2>
 
-          <p
-            className="text-xl font-bold mt-4"
-            style={{ color: "var(--theme-primary)" }}
-          >
+          <p className="text-4xl font-abril mt-4" style={{ color: "#F2A300" }}>
             Want to generate high quality leads and scale your business?
           </p>
 
@@ -41,23 +38,18 @@ export default function PerformanceMarketingHero() {
 
           {/* Buttons */}
           <div className="mt-6 flex gap-4">
-            <button
-              className="text-white font-semibold py-2 px-6 rounded"
-              style={{
-                backgroundColor: "var(--theme-primary)",
-                color: "#fff",
-              }}
-            >
-              Let’s Connect
-            </button>
-            <button
-              className="font-semibold py-2 px-6 rounded"
-              style={{
-                backgroundColor: "#000",
-                color: "#fff",
-              }}
-            >
-              See Our Work
+            <button className="btn-connect">Let’s Connect</button>
+
+            <button className="btn-see-work-2 group">
+              <span className="icon group-hover:translate-x-[105%] transition-transform duration-300">
+                ›
+              </span>
+              <span className="text relative transition-all duration-300">
+                See Our Work
+                <span className="icon absolute left-0 opacity-0 group-hover:opacity-100 group-hover:left-full transition-all duration-300">
+                  ›
+                </span>
+              </span>
             </button>
           </div>
         </div>
@@ -66,7 +58,7 @@ export default function PerformanceMarketingHero() {
         <div className="md:w-1/2 flex justify-center">
           <Image
             src="/images/services/digital-marketing/performance-marketing/hero.png"
-            alt="Performance Marketing Illustration"
+            alt="Logo Design"
             width={500}
             height={400}
             className="max-w-full h-auto"

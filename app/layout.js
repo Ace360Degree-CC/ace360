@@ -1,12 +1,13 @@
-import './style.css';
-import Header from './commons/header';
-import Footer from './commons/footer/footer';
-import { Caveat } from 'next/font/google';
+import "./style.css";
+
+import Header from "./commons/header";
+import Footer from "./commons/footer/footer";
+import { Caveat } from "next/font/google";
 
 // ⬇️ Load Caveat font, but don’t apply globally
 export const caveat = Caveat({
-  subsets: ['latin'],
-  weight: ['400', '700'],
+  subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
 export const metadata = {
@@ -17,7 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body> {/* No caveat font here */}
+      <body>
+        {" "}
+        {/* No caveat font here */}
         <Header />
         {children}
         <Footer />
@@ -27,8 +30,3 @@ export default function RootLayout({ children }) {
 }
 
 // layout.js or root page.js
-
-
-
-
-
