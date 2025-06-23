@@ -6,7 +6,7 @@ import Testimonials from "@/app/homecomponents/testimonials";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 import WhyInfluencerMarketingMatters from "./WhyInfluencerMarketingMatters";
-export default function () {
+export default function Page() {
   return (
     <section>
       <InfuencerMarketingHero />

@@ -7,7 +7,7 @@ import Testimonials from "@/app/homecomponents/testimonials";
 import OurContentWritingServices from "./OurContentWritingServices";
 import WhyContentWritingMatters from "./WhyContentWritingMatters";
 
-export default function () {
+export default function Page() {
   return (
     <section>
       <ContentWritingHero />

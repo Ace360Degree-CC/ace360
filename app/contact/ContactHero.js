@@ -13,8 +13,8 @@ export default function ContactHero() {
             <p className=" md:text-xl leading-relaxed ">
               We’d love to hear from you! Whether you’re looking to elevate your
               brand, enhance your digital presence, or craft the next big thing,
-              we're ready. Let’s start a conversation and turn your vision into
-              reality.
+              we&apos;re ready. Let’s start a conversation and turn your vision
+              into reality.
             </p>
           </div>
         </div>

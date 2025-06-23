@@ -19,7 +19,9 @@ export default function ContactFormWithMap() {
           <h3 className="text-lg font-bold text-[var(--theme-primary)] mb-1">
             Have An Idea?
           </h3>
-          <p className="text-sm text-gray-500 mb-4">Let's Build It Together</p>
+          <p className="text-sm text-gray-500 mb-4">
+            Let&apos;s Build It Together
+          </p>
           <form className="space-y-4">
             <input
               type="text"

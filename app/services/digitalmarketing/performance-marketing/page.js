@@ -8,7 +8,7 @@ import Testimonials from "@/app/homecomponents/testimonials";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import WhyPerformanceMarketingMatters from "./WhyPerformanceMarketingMatters";
 
-export default function () {
+export default function Page() {
   return (
     <section className="">
       <PerformanceMarketingHero />

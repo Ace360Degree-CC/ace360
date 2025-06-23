@@ -27,7 +27,7 @@ export default function WhyChooseAce() {
           <p>
             Collaborative Partnership: We believe in the power of collaboration.
             Your vision, combined with our expertise, results in solutions that
-            are truly tailored to your brand's identity and aspirations.
+            are truly tailored to your brand&apos;s identity and aspirations.
           </p>
           <br />
           <p>
