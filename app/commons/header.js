@@ -63,7 +63,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/portfolio"
                 className="block py-2 px-3 hover:text-[#666666] md:p-0"
               >
                 Portfolio
@@ -87,7 +87,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="/blogs"
                 className="block py-2 px-3 hover:text-[#666666] md:p-0"
               >
                 Blogs
@@ -103,7 +103,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="/we-are-hiring"
                 className="block py-2 px-3 hover:text-[#666666] md:p-0"
               >
                 We Are Hiring
