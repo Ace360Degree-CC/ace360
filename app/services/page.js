@@ -1,3 +1,4 @@
+"use client";
 import Branding from "../ServiceComponents/Branding";
 import DigitalMarketing from "../ServiceComponents/DigitalMarketing";
 import HeroService from "../ServiceComponents/HeroService";

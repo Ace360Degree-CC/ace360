@@ -1,8 +1,47 @@
+"use client";
+
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 export default function Testimonials() {
+  const testimonials = [
+    {
+      name: "Irfaan Shaikh",
+      title: "Director",
+      company: "Amigo Academy Pvt. Ltd.",
+      feedback:
+        "Ace360degree is a great company to work with. The team is very helpful, always prompt in responding to messages and highly efficient. We are very happy to work with Ace360degree and its team.",
+    },
+    {
+      name: "Neha Mehta",
+      title: "Founder & CEO",
+      company: "GlowSkincare Co.",
+      feedback:
+        "Partnering with Ace360degree has transformed our online presence. Their creative team delivered exactly what we envisioned — fast, professional, and with great attention to detail.",
+    },
+    {
+      name: "Rahul Verma",
+      title: "Marketing Head",
+      company: "TechNova Solutions",
+      feedback:
+        "We had tight deadlines and high expectations, but Ace360degree delivered every time. Their commitment and creativity made them feel like an extension of our in-house team.",
+    },
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+  };
+
   return (
     <section>
-      {/* Section 9: Testimonials */}
-
       <div className="bg-white py-16 px-6" id="testimonials">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Text Section */}
@@ -26,43 +65,30 @@ export default function Testimonials() {
             </p>
           </div>
 
-          {/* Right Testimonial Card */}
-          <div className="border border-[#F2A300] rounded-md p-6 relative shadow-md">
-            {/* <div className="text-5xl text-[#343A40] leading-none mb-2">&#8220;</div> */}
-            <p className="text-sm text-[#525252] mb-4">
-              Ace360degree is a great company to work with. The team is very
-              helpful, always prompt in responding to messages and highly
-              efficient.
-              <br />
-              We are very happy to work with Ace360degree and its team.
-            </p>
-            <div className="flex items-center justify-end mt-4 gap-4">
-              {/* Client Image */}
-
-              <div className="text-right">
-                <p className="font-semibold text-[#343A40]">- Irfaan Shaikh</p>
-                <p className="text-[#545454] font-bold text-sm">Director</p>
-                <p className="text-[#F2A300] font-bold ">
-                  Amigo Academy Pvt. Ltd.
-                </p>
+          {/* Right Testimonial Carousel */}
+          <Slider {...settings}>
+            {testimonials.map((t, i) => (
+              <div
+                key={i}
+                className="border-3 border-[#F2A300] rounded-md p-6 shadow-2xl"
+              >
+                <p className="text-sm text-[#525252] mb-4">{t.feedback}</p>
+                <div className="flex items-center justify-end mt-4 gap-4">
+                  <div className="text-right">
+                    <p className="font-semibold text-[#343A40]">- {t.name}</p>
+                    <p className="text-[#545454] font-bold text-sm">
+                      {t.title}
+                    </p>
+                    <p className="text-[#F2A300] font-bold">{t.company}</p>
+                  </div>
+                  <div className="w-10 h-10 border-2 border-[#F2A300] rounded-full"></div>
+                </div>
               </div>
-              <div className="w-10 h-10 border-2 border-[#F2A300] rounded-full"></div>
-            </div>
-          </div>
-        </div>
-
-        {/* Pagination Dots */}
-        <div className="flex justify-center mt-8">
-          <div className="flex items-center space-x-2">
-            <span className="w-4 h-2 rounded-full bg-[#F2A300]"></span>
-            {[...Array(10)].map((_, i) => (
-              <span key={i} className="w-2 h-2 rounded-full bg-gray-300"></span>
             ))}
-          </div>
+          </Slider>
         </div>
       </div>
 
-      {/* Section 10: Success Stories */}
       <div className="bg-[#F2A300] py-5 px-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <h2 className="text-3xl text-[#525252]">Success Stories</h2>
@@ -71,6 +97,18 @@ export default function Testimonials() {
           </button>
         </div>
       </div>
+
+      <style jsx global>{`
+        .slick-dots li button:before {
+          color: #f2a300 !important;
+          opacity: 0.5;
+          font-size: 12px;
+        }
+        .slick-dots li.slick-active button:before {
+          color: #f2a300 !important;
+          opacity: 1;
+        }
+      `}</style>
     </section>
   );
 }

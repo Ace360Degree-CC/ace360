@@ -9,7 +9,7 @@ export default function Header() {
 
   return (
     <nav className="dark:bg-[#FCF5EB]">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
         <Link
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -51,12 +51,12 @@ export default function Header() {
           className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`}
           id="navbar-default"
         >
-          <ul className="font-medium text-[#808080] flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-4 md:items-center">
+          <ul className="font-medium text-[#808080] flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-4 md:items-center ">
             {/* your links (unchanged) */}
             <li>
               <Link
                 href="/company"
-                className="block py-2 px-3 hover:text-[#666666] md:p-0"
+                className="nav-link block py-2 px-3 rounded-md relative overflow-hidden z-10 text-[#808080] hover:text-white transition-colors duration-300 md:p-2"
               >
                 Company
               </Link>
@@ -64,7 +64,7 @@ export default function Header() {
             <li>
               <Link
                 href="/portfolio"
-                className="block py-2 px-3 hover:text-[#666666] md:p-0"
+                className="nav-link block py-2 px-3 rounded-md relative overflow-hidden z-10 text-[#808080] hover:text-white transition-colors duration-300 md:p-2"
               >
                 Portfolio
               </Link>
@@ -72,23 +72,167 @@ export default function Header() {
             <li>
               <Link
                 href="/product"
-                className="block py-2 px-3 hover:text-[#666666] md:p-0"
+                className="nav-link block py-2 px-3 rounded-md relative overflow-hidden z-10 text-[#808080] hover:text-white transition-colors duration-300 md:p-2"
               >
-                Products
+                Product
               </Link>
             </li>
-            <li>
+            <li className="relative group">
               <Link
                 href="/services"
-                className="block py-2 px-3 hover:text-[#666666] md:p-0"
+                className="nav-link block py-2 px-3 rounded-t-md relative overflow-hidden z-10 text-[#808080] hover:text-white transition-colors duration-300 md:p-2"
               >
                 Services
               </Link>
+
+              {/* Dropdown Container */}
+              <div className="absolute pl-6 pr-6 pt-6 pb-6 top-full right-0 w-screen max-w-3xl bg-[#f2a300] shadow-lg  hidden group-hover:flex gap-12 text-white z-50 transition-all duration-300 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 pointer-events-none group-hover:pointer-events-auto rounded-b-lg">
+                {/* Digital Marketing */}
+                <div>
+                  <h3 className="font-bold text-xl mb-2">Digital Marketing</h3>
+                  <ul className="space-y-2">
+                    <li>
+                      <Link href="/services/digitalmarketing/performance-marketing">
+                        Performance Marketing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/digitalmarketing/search-engine-optimization">
+                        Search Engine Optimization
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/digitalmarketing/social-media-marketing">
+                        Social Media Marketing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/digitalmarketing/Influencer-marketing">
+                        Influencer Marketing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/digitalmarketing/online-reputation-management">
+                        Online Reputation Management
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/digitalmarketing/content-writing">
+                        Content Writing
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Branding */}
+                <div>
+                  <h3 className="font-bold text-xl mb-2">Branding</h3>
+                  <ul className="space-y-2">
+                    <li>
+                      <Link href="/services/branding/marketing-collaterals">
+                        Marketing Collaterals
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/branding/brand-strategy">
+                        Brand Strategy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/branding/brand-naming">
+                        Brand Naming
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/branding/logo-designing">
+                        Logo Designing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/branding/video-editing">
+                        Video Editing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/branding/motion-graphics">
+                        Motion Graphics
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/branding/package-designing">
+                        Package Designing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/branding/graphics-designing">
+                        Graphics Designing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/branding/3d-modelling-and-animation">
+                        3D Modelling & Animation
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Technology */}
+                <div>
+                  <h3 className="font-bold text-xl mb-2">Technology</h3>
+                  <ul className="space-y-2">
+                    <li>
+                      <Link href="services/technology/website-development">
+                        Website Design & Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/technology/mobile-app-development">
+                        Mobile Apps Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/technology/custom-software-development">
+                        Custom Software Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/technology/e-commerce-web-development">
+                        Ecommerce Website Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/technology/portal-development">
+                        Portal Development / Market Place
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/technology/wordpress">
+                        WordPress Website
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/technology/shopify">
+                        Shopify Website Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/technology/opencart">
+                        Opencart Website Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/services/technology/squarespace">
+                        Squarespace Website Development
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </li>
             <li>
               <Link
                 href="/blogs"
-                className="block py-2 px-3 hover:text-[#666666] md:p-0"
+                className="nav-link block py-2 px-3 rounded-md relative overflow-hidden z-10 text-[#808080] hover:text-white transition-colors duration-300 md:p-2"
               >
                 Blogs
               </Link>
@@ -96,15 +240,16 @@ export default function Header() {
             <li>
               <Link
                 href="/contact"
-                className="block py-2 px-3 hover:text-[#666666] md:p-0"
+                className="nav-link block py-2 px-3 rounded-md relative overflow-hidden z-10 text-[#808080] hover:text-white transition-colors duration-300 md:p-2"
               >
                 Contact
               </Link>
             </li>
+
             <li>
               <Link
                 href="/we-are-hiring"
-                className="block py-2 px-3 hover:text-[#666666] md:p-0"
+                className="nav-link block py-2 px-3 rounded-md relative overflow-hidden z-10 text-[#808080] hover:text-white transition-colors duration-300 md:p-2"
               >
                 We Are Hiring
               </Link>
@@ -112,7 +257,7 @@ export default function Header() {
             <li>
               <Link
                 href="/contact"
-                className="block text-[#808080] bg-[#343A40] rounded-[7px] p-[10px] hover:text-[#666666]"
+                className="block nav-link  relative text-white bg-[#343A40] rounded-[7px] p-[10px] hover:text-white hover:bg-[var(--theme-primary)]"
               >
                 Request a Quote
               </Link>
