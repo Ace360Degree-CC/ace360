@@ -1,4 +1,4 @@
-const SuccessLogo = () => {
+export default function SuccessLogo() {
   return (
     <section className="py-16 px-4 bg-white text-center ">
       <h4 className="text-xl py-2 inline uppercase text-[var(--theme-text)]  border-b-[2px] border-[var(--theme-primary)] pb-1">
@@ -73,6 +73,4 @@ const SuccessLogo = () => {
       </div>
     </section>
   );
-};
-
-export default SuccessLogo;
+}

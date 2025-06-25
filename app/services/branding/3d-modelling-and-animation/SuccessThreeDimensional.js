@@ -1,4 +1,4 @@
-const SuccessThreeDimensional = () => {
+export default function SuccessThreeDimensional() {
   return (
     <section className="py-16 px-4 bg-white text-center ">
       <h4 className="text-xl py-2 inline uppercase text-[var(--theme-text)]  border-b-[2px] border-[var(--theme-primary)] pb-1">
@@ -16,7 +16,6 @@ const SuccessThreeDimensional = () => {
         converts, making us your trusted partner in navigating the dynamic world
         of SEO.
       </p>
-
       <div className="flex justify-center">
         <div className="grid md:grid-cols-3 gap-8 ">
           {/* Card 1 */}
@@ -35,7 +34,6 @@ const SuccessThreeDimensional = () => {
               Increased Product Engagement by 50% with 3D Renders
             </p>
           </div>
-
           {/* Card 2 */}
           <div className="bg-[#FBE4B5] p-6 w-60 rounded-tl-2xl rounded-br-2xl shadow-md">
             <div className="mb-4">
@@ -52,7 +50,6 @@ const SuccessThreeDimensional = () => {
               Boosted Real Estate Sales with Immersive 3D Walkthroughs
             </p>
           </div>
-
           {/* Card 3 */}
           <div className="bg-[#FBE4B5] p-6  w-60 rounded-tl-2xl rounded-br-2xl shadow-md">
             <div className="mb-4">
@@ -73,6 +70,4 @@ const SuccessThreeDimensional = () => {
       </div>
     </section>
   );
-};
-
-export default SuccessThreeDimensional;
+}
