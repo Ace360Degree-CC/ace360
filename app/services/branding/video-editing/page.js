@@ -1,14 +1,14 @@
 "use client";
 
-import SuccessStories from "@/app/components/SuccessStories";
 import VideoEditingHero from "./VideoEditingHero";
 import VideoEditingServices from "./VideoEditingServices";
 import WhyVideoEditing from "./WhyVideoEditing";
-import Testimonials from "@/app/homecomponents/testimonials";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
-import ReadyVidepEditing from "./ReadyVidepEditing";
+
 import SuccessVideos from "./SuccessVideos";
+import ReadyVideoEditing from "./ReadyVideoEditing";
 
 export default function Page() {
   return (
@@ -17,7 +17,7 @@ export default function Page() {
       <VideoEditingServices />
       <WhyVideoEditing />
       <SuccessVideos />
-      <ReadyVidepEditing />
+      <ReadyVideoEditing />
       <Testimonials />
       <Sponsorship />
       <MeetDicuss />

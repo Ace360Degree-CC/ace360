@@ -1,6 +1,6 @@
 "use client";
 
-import Testimonials from "@/app/homecomponents/testimonials";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import WhyWPMatters from "./WhyWPMatters";
 import WPHome from "./WPHome";
 import WPServices from "./WPServices";

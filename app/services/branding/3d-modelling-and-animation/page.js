@@ -6,7 +6,7 @@ import ThreeDimensionService from "./ThreeDimensionService";
 import WhyThreeD from "./WhyThreeD";
 import SuccessThreeDimensional from "./SuccessThreeDimensional";
 import ReadyThreeD from "./ReadyThreeD";
-import Testimonials from "@/app/homecomponents/testimonials";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 
 export default function Page() {

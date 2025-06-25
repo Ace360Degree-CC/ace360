@@ -35,7 +35,7 @@ const services = [
   },
 ];
 
-export default function BrandNamingServive() {
+export default function BrandNamingService() {
   return (
     <div className="w-full bg-white">
       <section className="py-16 px-4 max-w-7xl mx-auto text-center">

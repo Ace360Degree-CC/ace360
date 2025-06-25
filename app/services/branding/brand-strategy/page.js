@@ -5,7 +5,7 @@ import BrandStrategyHero from "./BrandStrategyHero";
 import BrandStrategyService from "./BrandStrategyService";
 import WhyBrandStrategy from "./WhyBrandStrategy";
 import ReadyBrandStrategy from "./ReadyBrandStrategy";
-import Testimonials from "@/app/homecomponents/testimonials";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 

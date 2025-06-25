@@ -1,6 +1,6 @@
 "use client";
 
-import Testimonials from "@/app/homecomponents/testimonials";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import SquarespaceHero from "./SquarespaceHero";
 import SquarespaceServices from "./SquarespaceServices";
 import WhySquareSpaceMatters from "./WhySquareSpaceMatters";

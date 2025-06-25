@@ -1,4 +1,4 @@
-export default function ReadyVidepEditing() {
+export default function ReadyVideoEditing() {
   return (
     <section className="bg-white text-center py-16">
       <h2 className="font-semibold text-gray-800 text-3xl">

@@ -1,7 +1,7 @@
 import Data from "./homecomponents/Data";
 import HomeHeroSection from "./homecomponents/hero";
 import Sponsorship from "./homecomponents/Sponsorship";
-import Testimonials from "./homecomponents/testimonials";
+import Testimonials from "./homecomponents/Testimonials";
 import DigitalMarketing from "./homecomponents/DigitalMarketing";
 import Branding from "./ServiceComponents/Branding";
 import MeetDicuss from "./homecomponents/MeetDicuss";
@@ -18,8 +18,6 @@ export default function Page() {
       <HomeBrand />
       <HomeTechnology />
 
-      
-
       {/* section 6 */}
 
       <div className="bg-[#343A40] py-12 px-4">
@@ -28,9 +26,10 @@ export default function Page() {
             Future-Proof Your Business with Powerful SaaS Solutions
           </h2>
           <p className="text-[#ffffff] text-lg">
-            At Ace360degree, we streamline operations, enhance efficiency, and drive growth with
-            cutting-edge SaaS products. Our solutions empower businesses with automation, collaboration,
-            and performance optimization.
+            At Ace360degree, we streamline operations, enhance efficiency, and
+            drive growth with cutting-edge SaaS products. Our solutions empower
+            businesses with automation, collaboration, and performance
+            optimization.
           </p>
         </div>
 
@@ -58,7 +57,9 @@ export default function Page() {
               className="bg-white rounded-[15px] overflow-hidden flex flex-col items-center text-center"
             >
               <div className="w-full bg-[#FBE4B5] px-4 py-3">
-                <h3 className="text-[#F2A300] font-bold text-xl">{card.title}</h3>
+                <h3 className="text-[#F2A300] font-bold text-xl">
+                  {card.title}
+                </h3>
               </div>
               <img src={card.img} alt={card.title} className="h-32 w-32 my-6" />
               <p className="text-[#444444] px-6 mb-6">{card.desc}</p>
@@ -108,7 +109,9 @@ export default function Page() {
           ${index % 2 === 0 ? "border-r" : ""}`}
             >
               <p className="text-[#525252] text-sm mb-1">{item.top}</p>
-              <h3 className="text-4xl font-bold text-white mb-1">{item.number}</h3>
+              <h3 className="text-4xl font-bold text-white mb-1">
+                {item.number}
+              </h3>
               <p className="text-[#754C00] font-semibold">{item.label}</p>
             </div>
           ))}
@@ -161,7 +164,6 @@ export default function Page() {
       <Testimonials />
       <Sponsorship />
       <MeetDicuss />
-
     </div>
   );
 }

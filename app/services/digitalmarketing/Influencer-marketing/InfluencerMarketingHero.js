@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-export default function InfuencerMarketingHero() {
+export default function InfluencerMarketingHero() {
   return (
     <section
       className="bg-white py-16 px-4 md:px-20"

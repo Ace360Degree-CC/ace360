@@ -3,7 +3,7 @@
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 import ContentWritingHero from "./ContentWritingHero";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
-import Testimonials from "@/app/homecomponents/testimonials";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import OurContentWritingServices from "./OurContentWritingServices";
 import WhyContentWritingMatters from "./WhyContentWritingMatters";
 
