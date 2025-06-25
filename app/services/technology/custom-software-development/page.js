@@ -1,6 +1,6 @@
 "use client";
 
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import CustomHero from "./CustomHero";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";

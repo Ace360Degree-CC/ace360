@@ -1,6 +1,6 @@
 "use client";
 
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import OpenCraftHero from "./OpenCraftHero";
 import OpenCraftServices from "./OpenCraftServices";
 import WhyOpenCraft from "./WhyOpenCraft";

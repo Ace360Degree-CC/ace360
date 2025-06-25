@@ -5,7 +5,7 @@ import MarketingCollateralHero from "./MarketingCollateralHero";
 import MarketingCollateralServices from "./MarketingCollateralServices";
 import WhyMarketingCollateral from "./WhyMarketingCollateral";
 import ReadymarketingCollateral from "./ReadymarketingCollateral";
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 

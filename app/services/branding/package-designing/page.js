@@ -1,6 +1,6 @@
 "use client";
 
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import PackageService from "./PackageService";
 import PackagingHero from "./PackagingHero";
 import ReadyPackage from "./ReadyPackage";

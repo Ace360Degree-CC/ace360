@@ -2,7 +2,7 @@
 
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 import MobileDevHero from "./MobileDevHero";
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import OurMobileDevServices from "./OurMobileDevServices";
 import WhyMobileDevMatters from "./WhyMobileDevMatters";

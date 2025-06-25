@@ -5,7 +5,7 @@ import OurSMMServices from "./OurSMMServices";
 import SMMHero from "./SMMHero";
 import WhySMMMatters from "./WhySMMMatters";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import WhyChooseSMM from "./WhyChooseSMM";
 
 export default function Page() {

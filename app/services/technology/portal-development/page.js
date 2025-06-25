@@ -1,6 +1,6 @@
 "use client";
 
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import OurPortalDevService from "./OurPortalDevService";
 import PortalDevHero from "./PortalDevHero";
 import WhyPortalDevMatters from "./WhyPortalDevMatters";

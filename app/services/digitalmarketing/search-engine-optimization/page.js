@@ -2,7 +2,7 @@
 
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import SEOHero from "./SEOHero";
 import OurSeoServices from "./OurSeoServices";
 import WhySEOMatters from "./WhySEOMatters";

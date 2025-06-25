@@ -1,4 +1,4 @@
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import BrandNamingHero from "./BrandNamingHero";
 
 import ReadyBrandNaming from "./ReadyBrandNaming";

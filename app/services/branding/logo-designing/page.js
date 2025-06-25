@@ -1,4 +1,4 @@
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import LogoHero from "./LogoHero";
 import LogoServices from "./LogoServices";
 import ReadyLogoDesign from "./ReadyLogoDesign";

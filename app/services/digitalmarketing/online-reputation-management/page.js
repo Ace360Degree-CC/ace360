@@ -2,7 +2,7 @@
 
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
-import Testimonials from "@/app/homecomponents/Testimonials";
+import Testimonials from "@/app/homecomponents/__Temp__";
 import ORMHero from "./ORMHero";
 import OurORMServices from "./OurORMServices";
 import WhyORMMatters from "./WhyORMMatters";
