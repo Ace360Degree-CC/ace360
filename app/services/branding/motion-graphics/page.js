@@ -1,6 +1,6 @@
 "use client";
 
-import Testimonials from "@/app/homecomponents/__Temp__";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import MotionGraphicServices from "./MotionGraphicServices";
 import MotionGraphicsHero from "./MotionGraphicsHero";
 import ReadyMotionGraphic from "./ReadyMotionGraphic";

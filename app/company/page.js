@@ -3,7 +3,7 @@ import Space from "../CompanyComponents/space";
 import Values from "../CompanyComponents/Values";
 import Webreath from "../CompanyComponents/WeBreath";
 import MeetDicuss from "../homecomponents/MeetDicuss";
-import Testimonials from "../homecomponents/__Temp__";
+import Testimonials from "../homecomponents/Testimonials";
 
 export default function page() {
   return (

@@ -1,6 +1,6 @@
 "use client";
 
-import Testimonials from "@/app/homecomponents/__Temp__";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import EComHero from "./EComHero";
 import OurEComServices from "./OurEComServices";
 import WhyEComMatters from "./WhyEComMatters";

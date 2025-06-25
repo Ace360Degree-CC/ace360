@@ -4,7 +4,7 @@ import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 import OurPerformanceMarketingService from "./OurPerformanceMarketingService";
 import PerformanceMarketingHero from "./PerformanceMarketingHero";
 import WhyChoosePerformanceMarketing from "./WhyChoosePerformanceMarketing";
-import Testimonials from "@/app/homecomponents/__Temp__";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import WhyPerformanceMarketingMatters from "./WhyPerformanceMarketingMatters";
 

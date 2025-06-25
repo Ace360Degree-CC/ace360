@@ -3,7 +3,7 @@
 import VideoEditingHero from "./VideoEditingHero";
 import VideoEditingServices from "./VideoEditingServices";
 import WhyVideoEditing from "./WhyVideoEditing";
-import Testimonials from "@/app/homecomponents/__Temp__";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 

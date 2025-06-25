@@ -5,7 +5,7 @@ import GraphicDesignHero from "./GraphicDesignHero";
 import GraphicDesignService from "./GraphicDesignService";
 import WhyGraphicDesign from "./WhyGraphicDesign";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
-import Testimonials from "@/app/homecomponents/__Temp__";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 import ReadyGraphicDesign from "./ReadyGraphicDesign";
 

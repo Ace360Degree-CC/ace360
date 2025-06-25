@@ -1,6 +1,6 @@
 import InfluencerServicesSection from "./InfluencerServicesSection";
 import WhyChooseInfluencerMarketing from "./WhyChooseInfluencerMarketing";
-import Testimonials from "@/app/homecomponents/__Temp__";
+import Testimonials from "@/app/homecomponents/Testimonials";
 import Sponsorship from "@/app/homecomponents/Sponsorship";
 import MeetDicuss from "@/app/homecomponents/MeetDicuss";
 import WhyInfluencerMarketingMatters from "./WhyInfluencerMarketingMatters";
